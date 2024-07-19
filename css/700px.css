@@ -1,0 +1,158 @@
+/* Nav */
+@media only screen and (max-width: 770px) {
+  nav{
+    margin-top: 5px;
+    display: flex;
+    width: 7rem;
+    height: auto;
+    position: absolute;
+    align-items: center;
+    justify-content: start;
+    flex-direction: column;
+    padding-right: 5%;
+    z-index: 200px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  .home{
+    width: 100%;
+    display: flex;
+    background: #F4DA9A;
+    border: none;
+    font-weight: bold;
+    color: #000;
+    cursor: pointer;
+    align-items: center;
+    position: relative;
+    z-index: 300;
+    font-size: x-large;
+  }
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+  }
+  nav li{
+    margin-top: 10px;
+    font-size: small;
+    text-align: center;
+}
+}
+/* Home efect */
+@media only screen and (max-width: 770px) {
+
+ .hide{
+  display: none;
+}
+
+ .active{
+  display: flex;
+  transition: 1s;
+}
+
+.navClose{
+  width: 1rem;
+}
+}
+
+/* Section 1 */
+@media only screen and (max-width: 770px) {
+  .inicial{
+    flex-direction: column;
+    height: 650px;
+  }
+  .circle{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
+
+/* Section 2 */
+
+@media only screen and (max-width: 770px) {
+  .flip-card-front{
+    flex-direction: column;
+    align-items: center;
+  }
+  .flip-card-back{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .flip-card{
+    width: 90%;
+    height: 500px;
+  }
+  .text-box{
+    width: 90%;
+  }
+
+  .img-box {
+    height: 100%;
+    width: 100%;
+  margin: 5px;
+}
+.img-box img{
+  border-radius: 5px;
+}
+
+}
+
+/* Section 3 */
+
+@media only screen and (max-width: 770px) {
+  .servicos{
+    padding-top: 50px;
+    flex-direction: column;
+    height: 900px;
+  }
+  .service{
+    width: 80%;
+    margin-top: 50px;
+  }
+
+}
+/* Show List */
+.close{
+  display: none;
+}
+
+
+.open{
+  display: block;
+  margin-bottom: 10px;
+  animation: accordionScroll .3s forwards;
+}
+
+/* Section 4 */
+
+@media only screen and (max-width: 770px) {
+  .prices{
+    flex-direction: column;
+    height: 850px;
+  }
+  .price{
+    width: 70%;
+    margin-top: 20px;
+  }
+}
+
+/* Section 5 */
+
+@media only screen and (max-width: 770px) {
+  .faq-container-quests{
+    width: 70%;
+  }
+  .FAQ{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+  }
+}
