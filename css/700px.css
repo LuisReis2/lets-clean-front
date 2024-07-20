@@ -10,9 +10,9 @@
     justify-content: start;
     flex-direction: column;
     padding-right: 5%;
-    z-index: 200px;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    z-index: 1;
   }
 
   .home{
@@ -50,6 +50,7 @@
  .active{
   display: flex;
   transition: 1s;
+  
 }
 
 .navClose{

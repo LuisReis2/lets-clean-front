@@ -4,6 +4,11 @@
     flex-direction: column;
     height: 700px;
   }
+  .FAQ {
+    height: 550px;
+  }
+  
+
   .circle{
     display: flex;
     width: 100%;
@@ -12,6 +17,9 @@
     margin-bottom: 10px;
     justify-content: center;
     align-items: center;
-    
+
+  }
+  .servicos{
+    margin-bottom: 2rem;
   }
 }
