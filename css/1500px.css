@@ -9,3 +9,7 @@
     align-items: center;
   }
 }
+.initial-box-img{
+  border: solid red;
+  width: 100%;
+}
