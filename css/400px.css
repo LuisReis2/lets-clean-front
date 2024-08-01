@@ -5,7 +5,7 @@
     height: 700px;
   }
   .FAQ {
-    height: 550px;
+    height: 800px;
   }
   
 .initial-box-img{
@@ -25,9 +25,26 @@
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 580px) {
 
   .faq-question{
     font-size: large;
+  }
+
+  
+}
+
+@media only screen and (max-width: 580px) {
+  .service{
+    width: 90%;
+    height: 600px;
+    margin-top: 50px;
+  }
+  .service-img{
+    height: 200px;
+    width: 90%;
+  }
+  .price{
+    width: 90%;
   }
 }
