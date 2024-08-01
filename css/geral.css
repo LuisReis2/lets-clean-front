@@ -50,8 +50,11 @@ border-radius: 100%;
   font-size: x-large;
 
 }
-
-.span-wpp:hover{
+.span-wpp a{
+  text-decoration: none;
+  color: white;
+}
+.span-wpp a:hover{
   color: #F4DA9A;
   transition: 350ms;
 }
@@ -183,13 +186,15 @@ ul a:hover{
   border-radius: 15px;
 }
 .img-box {
-    height: 100%;
+    height: 80%;
     width: 50%;
   margin: 5px;
+  
 }
 .img-box img{
   width: 95%;
   height: 95%;
+  border-radius: 15px;
 }
 
 .flip-card-front, .flip-card-back{
@@ -197,6 +202,7 @@ ul a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   height: 100%;
   width: 100%;
   border-radius: 15px;
@@ -236,9 +242,12 @@ ul a:hover{
   margin: auto;
 }
 .sobre-txt{
-  font-size: large;
+  font-size: medium;
   font-family: Arial, Helvetica, sans-serif;
   margin: auto;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
 }
 
 .flip-btn{
@@ -341,10 +350,21 @@ ul a:hover{
   font-weight: normal;
   color: #3D3D3D;
 }
-
+.service-list  li{
+  margin-top: 10px;
+}
 /* Responsividade  3 */
 
+.close{
+  display: none;
+}
 
+
+.open{
+  display: block;
+  margin-bottom: 10px;
+  animation: accordionScroll .3s forwards;
+}
 
 
 
