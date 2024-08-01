@@ -5,9 +5,11 @@
     height: 700px;
   }
   .FAQ {
-    height: 800px;
+    height: 800px auto;
   }
-  
+  .faq-container-quests{
+    height: auto;
+  }
 .initial-box-img{
   width: 80%;  
 }
@@ -23,6 +25,22 @@
   .servicos{
     margin-bottom: 2rem;
   }
+  .flip-card{
+    height: 550px;
+  }
+  .flip-card{
+    width: 90%;
+  }
+  .sobre img{
+    height: 200px;
+    width: 90%;
+  }
+  .sobre{
+    height: 600px;
+  }
+  .inicial-title{
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 580px) {
@@ -37,7 +55,6 @@
 @media only screen and (max-width: 580px) {
   .service{
     width: 90%;
-    height: 600px;
     margin-top: 50px;
   }
   .service-img{

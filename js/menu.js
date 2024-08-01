@@ -1,7 +1,7 @@
 export default class Home {
 
   init(){
-    const elementclick = document.querySelector('.home');
+    const elementclick = document.querySelector('nav');
     const elementShow = document.querySelector('.hide');
     const nav = document.querySelector('nav')
     const test = window.navigator.appVersion.includes("Android")

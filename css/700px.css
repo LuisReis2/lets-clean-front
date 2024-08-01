@@ -152,7 +152,7 @@
 @media only screen and (max-width: 770px) {
   .prices{
    height: 1000px;
-   padding-top: 200px;
+   padding-top: 20px;
   }
    .service{
      width: 80%;
@@ -162,7 +162,14 @@
    .service-img{
      height: 200px;
      width: 90%;
-   }
+  
+    }
+    .flip-card{
+      height: 600px;
+    }
+    .sobre{
+      height: 600px;
+    }
  }
 /* Section 4 */
 
