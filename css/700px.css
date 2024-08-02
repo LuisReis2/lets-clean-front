@@ -114,6 +114,7 @@
 @media only screen and (max-width: 770px) {
   .servicos{
     padding-top: 50px;
+    padding-bottom: 100px;
     flex-direction: column;
     height: 900px;
   }
@@ -135,8 +136,7 @@
 
 @media only screen and (max-width: 1000px) {
  .prices{
-  height: 1000px;
-  padding-top: 200px;
+  height: 100px;
  }
   .service{
     width: 40%;
